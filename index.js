@@ -42,14 +42,14 @@ Object.keys(styles).forEach(function ( name ) {
 	styles[name][0] = '\u001b[' + styles[name][0] + 'm';
 	styles[name][1] = '\u001b[' + styles[name][1] + 'm';
 
-	// prevent double definition
-	if ( String.prototype[name] === undefined ) {
-		// add getter by style name
-		Object.defineProperty(String.prototype, name, {
-			get: function () {
-				return styles[name][0] + this + styles[name][1];
-			},
-			enumerable: false
-		});
-	}
+	// add getter by style name
+	Object.defineProperty(String.prototype, name, {
+		get: function () {
+			return styles[name][0] + this + styles[name][1];
+		},
+		// hide from iteration
+		enumerable: false,
+		// allow to change or remove this property
+		configurable: true
+	});
 });
