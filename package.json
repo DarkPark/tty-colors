@@ -1,12 +1,24 @@
 {
 	"name": "tty-colors",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Extend strings with ANSI escape codes for styling strings in the terminal",
 	"main": "index.js",
-	"keywords": ["ansi", "color", "terminal", "string", "tty", "escape", "formatting"],
 	"author": {
 		"name": "Stanislav Kalashnik",
 		"email": "sk@infomir.eu"
 	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:DarkPark/tty-colors.git"
+	},
+	"keywords": [
+		"ansi",
+		"color",
+		"terminal",
+		"string",
+		"tty",
+		"escape",
+		"formatting"
+	],
 	"license": "GPL-3.0"
 }
