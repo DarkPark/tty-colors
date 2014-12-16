@@ -24,7 +24,7 @@ var styles = {
 		magenta:       [35, 39],
 		cyan:          [36, 39],
 		white:         [37, 39],
-		gray:          [90, 39],
+		grey:          [90, 39],
 		bgBlack:       [40, 49],
 		bgRed:         [41, 49],
 		bgGreen:       [42, 49],
