@@ -1,6 +1,6 @@
 {
 	"name": "tty-colors",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "Extend strings with ANSI escape codes for styling strings in the terminal",
 	"main": "index.js",
 	"author": {
